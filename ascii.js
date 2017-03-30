@@ -1,0 +1,41 @@
+
+
+const alphanumeric = {
+  ' ': ({}+[])[!![]+!![]+!![]+!![]+!![]+!![]+!![]],
+  0: ({}+[])[!![]+!![]+!![]+!![]+!![]+!![]+!![]+!![]],
+  1: null,
+  2: null,
+  3: null,
+  4: null,
+  5: null,
+  6: null,
+  7: null,
+  8: null,
+  9: null,
+  a: null,
+  b: ({}+[])[!![]+!![]],
+  c: ({}+[])[!![]+!![]+!![]+!![]+!![]],
+  d: null,
+  e: ({}+[])[!![]+!![]+!![]+!![]],
+  f: null,
+  g: null,
+  h: null,
+  i: null,
+  j: ({}+[])[!![]+!![]+!![]],
+  l: null,
+  m: null,
+  n: null,
+  o: null,
+  p: null,
+  q: null,
+  r: null,
+  s: null,
+  t: ({}+[])[!![]+!![]+!![]+!![]+!![]+!![]],
+  u: null,
+  v: null,
+  x: null,
+  z: null,
+};
+for (let i in alphanumeric) {
+  console.log(i, '=', alphanumeric[i]);
+}
